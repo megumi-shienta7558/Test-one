@@ -1,0 +1,31 @@
+header {
+    margin: 0 auto;
+    width: 800px;
+    min-height: 30vh;
+    display: grid;
+    grid-template: 
+    "snail club  snail club  snail club" 80px
+    "li........   mein...... right....." 
+    "footer....   footer.... footer...." 
+    / ;
+}
+
+header {
+    grid-area: snail club;
+}
+
+main {
+    grid-area: mein;
+}
+
+nav {
+    grid-area: ul;
+}
+
+aside {
+    grid-area: right;
+}
+
+footer {
+    grid-area: footer;
+}
